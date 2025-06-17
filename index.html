@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <h1 class="logo">Meu Portfólio</h1>
+        <button
+          class="menu-toggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          <span class="hamburger"></span>
+        </button>
+        <nav class="nav-menu">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Início</a></li>
+            <li><a href="#projects" class="nav-link">Projetos</a></li>
+            <li><a href="#skills" class="nav-link">Habilidades</a></li>
+            <li><a href="#contact" class="nav-link">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Oi, eu sou <span class="highlight">Guilherme</span></h2>
+        <p>
+          Desenvolvedor Front-End focado em criar interfaces modernas e
+          responsivas
+        </p>
+        <a href="#projects" class="btn">Ver Projetos</a>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Meus Projetos</h2>
+        <div class="projects-grid" id="projects-container">
+          <!-- Projetos serão inseridos aqui via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <ul class="skills-list" id="skills-container">
+          <!-- Habilidades serão inseridas aqui via JavaScript -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <div class="contact-content">
+          <p>Entre em contato comigo através do email ou redes sociais:</p>
+          <div class="contact-info">
+            <a href="mailto:dev@example.com" class="contact-link">
+              <i class="fas fa-envelope"></i> guilherme.costatga@gmail.com
+            </a>
+            <div class="social-links">
+              <a
+                href="https://github.com/guilhermeszc"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/guilherme-souza-70b547221/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; <span id="current-year"></span> Guilherme. Todos os direitos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
