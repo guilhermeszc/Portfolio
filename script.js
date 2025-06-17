@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       description:
         "Aplicação para buscar informações de CEP usando React e API.",
       image: "imagens/image.png",
-      link: "#",
+      link: "https://buscador-cep-seven-lemon.vercel.app/",
     },
   ];
 
