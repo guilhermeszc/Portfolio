@@ -42,11 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // Dados dos Projetos
   const projects = [
     {
-      title: "Dashboard React",
-      description: "Interface responsiva com React, Tailwind e Chart.js.",
-      image:
-        "https://via.placeholder.com/400x200/2563eb/ffffff?text=React+Dashboard",
-      link: "#",
+      title: "Landing Page",
+      description:
+        "Landing page feita com HTML, Tailwind CSS, Flowbite e JavaScript.",
+      image: "imagens/imagem02.png",
+      link: "https://flowbite-site.vercel.app/",
     },
     {
       title: "Landing Page",
